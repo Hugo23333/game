@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 14px;
+  font-family: Arial,"微软雅黑","microsoft yahei";
+}
+
+#panel{
+  position: relative;
+  /*margin-top: 10px;*/
+  margin: 20px 30% auto 30%;
+}
+
+.box{
+  position: absolute;
+  background: #ccc;
+  border:1px solid #fff;
+}
+
+.snake{
+  position: absolute;
+  background:black;
+  border: 1px solid #fff;
+}
+
+.food{
+  position: absolute;
+  background: white;
+  border:1px solid #fff;
+}
